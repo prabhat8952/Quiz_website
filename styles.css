@@ -1,0 +1,104 @@
+:root{
+    background-color:cornsilk;
+    font-size:62.5%;
+}
+*{
+    font-size:2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 5rem;
+    color: blue;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-container{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.btn {
+    background: #73c1f5;
+    background-image: -webkit-linear-gradient(top, #73c1f5, #045282);
+    background-image: -moz-linear-gradient(top, #73c1f5, #045282);
+    background-image: -ms-linear-gradient(top, #73c1f5, #045282);
+    background-image: -o-linear-gradient(top, #73c1f5, #045282);
+    background-image: linear-gradient(to bottom, #73c1f5, #045282);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffff;
+    font-size: 2rem;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-bottom: 3rem;
+    width: 12rem;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background: #008dde;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  .btn[disabled]:hover{
+    cursor:not-allowed;
+  }
+  .end{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ form{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ input{
+    width:14rem;
+    margin-bottom: 3rem;
+    padding:1rem;
+    border-radius: 8px;
+    border:none;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+ }
+ input::placeholder{
+    padding:1rem 1rem;
+ }
+ #saveScoreBtn{
+    width:16rem;
+    border:none;
+ }
+ .highScore{
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#goHome{
+  margin-left: 10rem;
+}
+#highScoreList{
+  margin-left: 3rem;
+}
+.high-score{
+  margin-bottom: 1rem;
+}
+.high-score:hover{
+  transform: scale(1.025);
+}
